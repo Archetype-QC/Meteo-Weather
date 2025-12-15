@@ -1,0 +1,14 @@
+expediteur:sansregret.simon@hydroquebec.com
+type serveur:EX
+date envoi:2025-01-01 00:00:00
+type demande:quebec
+
+station:bagotville:beauceville:chibougamau-chapais:gaspe:l'acadie:l'assomption:lemieux:montjoli:montreal:ottawa:quebec:rouyn:sept-iles:sherbrooke:st-jovite:troisrivieres
+format sortie:ascii:ep:doe:simeb
+date de debut:2024-01-01
+date de fin:2025-01-01
+separateur de champ:\t
+format date:jj/mm/aa
+presence entete:oui
+decimale:,
+variables:nbreheures1904:date utc:heure utc:date locale:heure locale:tsl:t:err t:td:err td:hr:err hr:vv:err vv:vd:err vd:psta:err psta:rf1e:err rf1e

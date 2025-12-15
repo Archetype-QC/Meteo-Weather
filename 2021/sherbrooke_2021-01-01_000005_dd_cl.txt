@@ -1,0 +1,19 @@
+ ! SHERBROOKE_AIRPORT_QC_CAN Annual Cooling (DB=>MWB) 1%, MaxDB=26.9°C MWB=19.9°C
+ 
+  SizingPeriod:DesignDay,
+    SHERBROOKE_AIRPORT Ann Clg 1% Condns DB=>MWB,  !- Name
+    26.9,                    !- Maximum Dry-Bulb Temperature {C}
+    12.1,                    !- Daily Temperature Range {deltaC}
+    19.9,                    !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    98463.,                  !- Barometric Pressure {Pa}
+    3.8,                     !- Wind Speed {m/s}
+    250,                     !- Wind Direction {deg}
+    1.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    7,                       !- Month
+    SummerDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+

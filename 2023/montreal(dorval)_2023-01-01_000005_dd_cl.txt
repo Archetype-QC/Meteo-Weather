@@ -1,0 +1,19 @@
+ ! MONTREAL_INTL_QC_CAN Annual Cooling (DB=>MWB) 1%, MaxDB=28.2°C MWB=21°C
+ 
+  SizingPeriod:DesignDay,
+    MONTREAL_INTL Ann Clg 1% Condns DB=>MWB,  !- Name
+    28.2,                    !- Maximum Dry-Bulb Temperature {C}
+    9.5,                     !- Daily Temperature Range {deltaC}
+    21,                      !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    100893.,                 !- Barometric Pressure {Pa}
+    4.8,                     !- Wind Speed {m/s}
+    220,                     !- Wind Direction {deg}
+    1.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    7,                       !- Month
+    SummerDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+

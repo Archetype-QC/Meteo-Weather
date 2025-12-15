@@ -1,0 +1,19 @@
+ ! TROIS_RIVIERES_QC_CAN Annual Heating 99%, MaxDB=-22.8°C
+ 
+  SizingPeriod:DesignDay,
+    TROIS_RIVIERES Ann Htg 99% Condns DB,  !- Name
+    -22.8,                   !- Maximum Dry-Bulb Temperature {C}
+    0.0,                     !- Daily Temperature Range {deltaC}
+    -22.8,                   !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    101253.,                 !- Barometric Pressure {Pa}
+    3.3,                     !- Wind Speed {m/s}
+    300,                     !- Wind Direction {deg}
+    0.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    1,                       !- Month
+    WinterDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+

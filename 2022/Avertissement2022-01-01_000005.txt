@@ -1,0 +1,87 @@
+____________________________________________________________________
+ANOMALIES dans le FICHIER D'ENTREE: 
+____________________________________________________________________
+
+Aucune anomalie dans le fichier d'entree
+____________________________________________________________________
+LEXIQUE DES CODES d ERREUR
+____________________________________________________________________
+
+# Code 4        = Donnee obtenue par interpolation lineaire
+# Code 5.k=x.Y  = Donnee obtenue par correlation avec une station voisine et raccordee
+#                 x : Rang de la station utilisee
+#                 Y : Nom de la station utilisee
+#                     ou Moyenne si aucune station n'était disponible
+# Code 6 = Idem code 5, sauf que la donnee n'est pas raccordee en aval
+# Code 8 = Mise a zero du rayonnement (superieur a 20 W/m2) la nuit
+
+____________________________________________________________________
+COPIE DU FICHIER D'INPUT (tel que lu)
+____________________________________________________________________
+
+> expediteur:sansregret.simon@hydroquebec.com
+> type serveur:EX
+> date envoi:2025-01-01 00:00:00
+> type demande:quebec
+> 
+> station:bagotville:beauceville:chibougamau-chapais:gaspe:l'acadie:l'assomption:lemieux:montjoli:montreal:ottawa:quebec:rouyn:sept-iles:sherbrooke:st-jovite:troisrivieres
+> format sortie:ascii:ep:doe:simeb
+> date de debut:2022-01-01
+> date de fin:2023-01-01
+> separateur de champ:\t
+> format date:jj/mm/aa
+> presence entete:oui
+> decimale:,
+> variables:nbreheures1904:date utc:heure utc:date locale:heure locale:tsl:t:err t:td:err td:hr:err hr:vv:err vv:vd:err vd:psta:err psta:rf1e:err rf1e
+
+____________________________________________________________________
+COPIE DU FICHIER D'INPUT (tel qu'interprete)
+____________________________________________________________________
+
+< station:bagotville:beauceville:chibougamau-chapais:gaspe:l'acadie:l'assomption:lemieux:montjoli:montreal:ottawa:quebec:rouyn:sept-iles:sherbrooke:st-jovite:troisrivieres
+< format sortie:ascii:ep:doe:simeb
+< date de debut:2022-01-01
+< date de fin:2023-01-01
+< separateur de champ:\t
+< format date:jj/mm/aa
+< presence entete:oui
+< decimale:,
+< variables:nbreheures1904:date utc:heure utc:date locale:heure locale:tsl:t:err t:td:err td:hr:err hr:vv:err vv:vd:err vd:psta:err psta:rf1e:err rf1e
+
+____________________________________________________________________
+RAPPORT D'EXTRACTION : 2022/01/01 00:00
+____________________________________________________________________
+
+Liste des stations reconnues:
+bagotville
+beauceville
+chibougamau-chapais
+gaspe
+l\'acadie
+l\'assomption
+lemieux
+montjoli
+montreal\(dorval\)
+ottawa
+quebec
+rouyn
+rouyn\(au7\)
+sept-iles
+sherbrooke
+st-jovite
+troisrivieres
+
+Liste des formats demandes:
+ascii
+ep
+doe
+simeb
+
+Donnees disponible de (UTC): 27/02/1995	22 a 30/10/2025	05
+Donnees demandees de  (UTC): 01/01/2022	06 a 02/01/2023	05
+Donnees demandees de  (HNE): 01/01/2022	01 a 02/01/2023	00
+
+Separateur de champ : "	" en ASCII :"9"
+
+Variables extraites
+nbreheures1904	date utc	heure utc	date locale	heure locale	tsl	t	err t	td	err td	hr	err hr	vv	err vv	vd	err vd	psta	err psta	rf1e	err rf1e

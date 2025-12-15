@@ -1,0 +1,19 @@
+ ! MANIWAKI_QC_CAN Annual Heating 99%, MaxDB=-27.3°C
+ 
+  SizingPeriod:DesignDay,
+    MANIWAKI Ann Htg 99% Condns DB,  !- Name
+    -27.3,                   !- Maximum Dry-Bulb Temperature {C}
+    0.0,                     !- Daily Temperature Range {deltaC}
+    -27.3,                   !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    99299.,                  !- Barometric Pressure {Pa}
+    0.7,                     !- Wind Speed {m/s}
+    330,                     !- Wind Direction {deg}
+    0.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    1,                       !- Month
+    WinterDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+

@@ -1,0 +1,19 @@
+ ! GASPE_AIRPORT_QC_CAN Annual Cooling (DB=>MWB) 1%, MaxDB=25.8°C MWB=18.5°C
+ 
+  SizingPeriod:DesignDay,
+    GASPE_AIRPORT Ann Clg 1% Condns DB=>MWB,  !- Name
+    25.8,                    !- Maximum Dry-Bulb Temperature {C}
+    11.6,                    !- Daily Temperature Range {deltaC}
+    18.5,                    !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    100929.,                 !- Barometric Pressure {Pa}
+    4.8,                     !- Wind Speed {m/s}
+    240,                     !- Wind Direction {deg}
+    1.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    7,                       !- Month
+    SummerDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+
