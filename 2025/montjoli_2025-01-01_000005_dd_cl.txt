@@ -1,0 +1,19 @@
+ ! MONT_JOLI_QC_CAN Annual Cooling (DB=>MWB) 1%, MaxDB=24.8°C MWB=18.7°C
+ 
+  SizingPeriod:DesignDay,
+    MONT_JOLI Ann Clg 1% Condns DB=>MWB,  !- Name
+    24.8,                    !- Maximum Dry-Bulb Temperature {C}
+    9.1,                     !- Daily Temperature Range {deltaC}
+    18.7,                    !- Humidity Indicating Conditions at Maximum Dry-Bulb
+    100702.,                 !- Barometric Pressure {Pa}
+    5.8,                     !- Wind Speed {m/s}
+    240,                     !- Wind Direction {deg}
+    1.00,                    !- Sky Clearness
+    0,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day of Month
+    7,                       !- Month
+    SummerDesignDay,         !- Day Type
+    0,                       !- Daylight Saving Time Indicator
+    WetBulb;                 !- Humidity Indicating Type
+
